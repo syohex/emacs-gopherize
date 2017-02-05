@@ -81,6 +81,7 @@
                (pop-to-buffer (current-buffer)))))))
      nil t)))
 
+;;;###autoload
 (defun gopherize-init ()
   (interactive)
   (gopherize--collect-categories))
